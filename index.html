@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière | Dark Beauty Edition</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="#home">LUM<span class="text-pink">I</span>ÈRE</a>
+            </div>
+            
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#produtos">SHOP</a></li>
+                    <li><a href="#sobre">CONCEITO</a></li>
+                    <li><a href="#faq">HELP</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <a href="#" class="cart-icon"><i class="fa-solid fa-bolt"></i> <span class="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero-carousel">
+        <div class="carousel-container">
+            <div class="slide active">
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1920&q=80');"></div>
+                <div class="slide-content container">
+                    <span class="badge">Influencer Choice</span>
+                    <h2>SHINE IN THE <span class="text-pink">DARK</span></h2>
+                    <p>Maquiagem de alta performance com pigmentos intensos. Criada para quem não tem medo de brilhar sob as luzes da cidade.</p>
+                    <a href="#produtos" class="btn-dark">GARANTIR MEU GLOW</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?auto=format&fit=crop&w=1920&q=80');"></div>
+                <div class="slide-content container">
+                    <span class="badge">Tech Beauty</span>
+                    <h2>FUTURE <span class="text-pink">SKIN</span></h2>
+                    <p>Skincare tecnológico com ativos que protegem contra a luz azul e regeneram sua pele durante a noite.</p>
+                    <a href="#produtos" class="btn-dark">VER TECNOLOGIA</a>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-btn prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="carousel-btn next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        
+        <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+        </div>
+    </section>
+
+    <section id="produtos" class="produtos-section container">
+        <div class="section-title">
+            <span>DROP EXCLUSIVO</span>
+            <h2>MUST <span class="text-pink">HAVE</span></h2>
+            
+            <div class="category-filters">
+                <button class="filter-btn active">ALL</button>
+                <button class="filter-btn">GLOSS</button>
+                <button class="filter-btn">EYES</button>
+                <button class="filter-btn">SKIN</button>
+            </div>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=500&q=80" alt="Produto 1">
+                </div>
+                <div class="product-info">
+                    <span class="category">Best Seller</span>
+                    <h3>Paleta Neon Cyber-Punk</h3>
+                    <p class="price">R$ 159,00</p>
+                    <button class="btn-buy">COMPRAR AGORA</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1631730359585-38a4935cbbce?auto=format&fit=crop&w=500&q=80" alt="Produto 2">
+                </div>
+                <div class="product-info">
+                    <span class="category">Liquid Glow</span>
+                    <h3>Gloss Labial 3D Pink-Vibe</h3>
+                    <p class="price">R$ 75,90</p>
+                    <button class="btn-buy">COMPRAR AGORA</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=500&q=80" alt="Produto 3">
+                </div>
+                <div class="product-info">
+                    <span class="category">Skin Protection</span>
+                    <h3>Sérum Hidratante UV-Shield</h3>
+                    <p class="price">R$ 134,00</p>
+                    <button class="btn-buy">COMPRAR AGORA</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=500&q=80" alt="Produto 4">
+                </div>
+                <div class="product-info">
+                    <span class="category">Tech Mask</span>
+                    <h3>Máscara Noturna Bio-Hacking</h3>
+                    <p class="price">R$ 198,00</p>
+                    <button class="btn-buy">COMPRAR AGORA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre-section">
+        <div class="container sobre-content">
+            <div class="sobre-text">
+                <span>CONCEITO DARK</span>
+                <h2>MANIFESTO <span class="text-pink">DIGITAL</span></h2>
+                <p>Nascemos no digital, para o digital. A Lumière Dark Beauty é para a geração que cria, edita e brilha. Nossas fórmulas são pensadas para o impacto visual real e para a saúde da sua pele.</p>
+                <p>Ativos futuristas unidos a uma estética ousada. Não somos apenas maquiagem, somos sua ferramenta de expressão.</p>
+            </div>
+            <div class="sobre-img">
+                <div class="img-glow-container">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80" alt="Vibe Dark Beauty">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section container">
+        <div class="section-title">
+            <h2>SUPORTE <span class="text-pink">24/7</span></h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">COMO FUNCIONA O ENVIO EXPRESS? <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>Pedidos confirmados até as 12h são despachados no mesmo dia. Utilizamos transportadoras ultra-rápidas para que seu kit chegue em tempo recorde.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">POLÍTICA DE DEVOLUÇÃO <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>Não curtiu o glow? Você tem 7 dias para solicitar a devolução gratuita através do nosso painel de atendimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section">
+        <div class="container contato-wrapper">
+            <div class="contato-info">
+                <h2>JOIN THE <span class="text-pink">COMMUNITY</span></h2>
+                <p>Dúvidas ou parcerias? Chama no direct ou preencha o formulário ao lado.</p>
+                <ul class="contact-details">
+                    <li><i class="fa-solid fa-at text-pink"></i> squad@lumieredark.com</li>
+                    <li><i class="fa-brands fa-tiktok text-pink"></i> @lumiere.darkbeauty</li>
+                </ul>
+            </div>
+            <div class="contato-form">
+                <form>
+                    <input type="text" placeholder="USER NAME" required>
+                    <input type="email" placeholder="E-MAIL" required>
+                    <textarea rows="4" placeholder="QUAL O SEU FEEDBACK?" required></textarea>
+                    <button type="submit" class="btn-dark">ENVIAR AGORA</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>LUMIÈRE DARK BEAUTY &copy; 2026 | BOLD. DIGITAL. TECH.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
